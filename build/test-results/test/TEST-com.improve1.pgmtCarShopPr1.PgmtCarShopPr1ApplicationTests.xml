@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.improve1.pgmtCarShopPr1.PgmtCarShopPr1ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-23T07:23:26" hostname="milen-Lenovo-B50-80" time="0.954">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.improve1.pgmtCarShopPr1.PgmtCarShopPr1ApplicationTests" time="0.954"/>
+  <system-out><![CDATA[10:23:23.768 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.improve1.pgmtCarShopPr1.PgmtCarShopPr1ApplicationTests]: PgmtCarShopPr1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:23:23.917 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.improve1.pgmtCarShopPr1.PgmtCarShopPr1Application for test class com.improve1.pgmtCarShopPr1.PgmtCarShopPr1ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-23T10:23:24.502+03:00  INFO 112679 --- [pgmtCarShopPr1] [    Test worker] c.i.p.PgmtCarShopPr1ApplicationTests     : Starting PgmtCarShopPr1ApplicationTests using Java 17.0.12 with PID 112679 (started by milen in /home/milen/UserMb5080/git/pgmtCarShopPr1)
+2024-10-23T10:23:24.505+03:00  INFO 112679 --- [pgmtCarShopPr1] [    Test worker] c.i.p.PgmtCarShopPr1ApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2024-10-23T10:23:25.834+03:00  INFO 112679 --- [pgmtCarShopPr1] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-10-23T10:23:26.263+03:00  INFO 112679 --- [pgmtCarShopPr1] [    Test worker] c.i.p.PgmtCarShopPr1ApplicationTests     : Started PgmtCarShopPr1ApplicationTests in 2.156 seconds (process running for 3.672)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
