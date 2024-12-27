@@ -34,15 +34,22 @@ public class GreetingController {
 		Sproduct n = new Sproduct();
 		n.setName(name);
 		n.setEmail(email);
-//		studentRepository.save(n);
+		studentRepository.save(n);
 		return "Saved";
 	}
 
 	@GetMapping(path="/all")
 	public @ResponseBody Iterable<Sproduct> getAllUsers() {
 		// This returns a JSON or XML with the users
-//		return studentRepository.findAll();
-		return null;
+		return studentRepository.findAll();
 	}
 
+//	-- pgmt_car_shop_db.students definition
+//
+//	CREATE TABLE `students` (
+//			`id` int(11) NOT NULL,
+//  `email` varchar(255) DEFAULT NULL,
+//  `name` varchar(255) DEFAULT NULL,
+//	PRIMARY KEY (`id`)
+//) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 }
